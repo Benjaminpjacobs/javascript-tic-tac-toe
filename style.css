@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.box {
+    border: 1px solid black;
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 180px;
+}
