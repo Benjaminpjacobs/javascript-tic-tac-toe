@@ -16,8 +16,7 @@ $(document).ready(function() {
     }
 
     const threeInARow = () => {
-        // debugger
-        // return comparePotentialWins(col1) || comparePotentialWins(col2)
+
         let potentialWins = ['123', '456', '789', '147', '258', '369', '159', '357']
         let winningCombo = potentialWins.filter(function(win) {
             let check = win.split('')
@@ -32,10 +31,6 @@ $(document).ready(function() {
         }
     }
 
-    // const comparePotentialWins = (col) => {
-    //     let id = col.toArray().map(function(div) { return div.id }).join('')
-    //     return potentialWins.some(function(win) { return win === id })
-    // }
     const isGameOver = () => {
         let filledNodes = $('.tile').filter(function() { return $(this).text() !== '' })
         let exes = filledNodes.filter(function() { return $(this).text() === 'X' })
