@@ -16,4 +16,4 @@ Submit a PR back to this repository with an overview of your approach to this ch
 
 ## Extension
 
-Create the functionality for a user to play against the computer. The computer will always choose the spot with the highest chances to win. 
+Create the functionality for a user to play against the computer. The computer will always choose the spot with the highest chances to win. This is to check and make sure I am receiving events on my webhook.
