@@ -2,6 +2,7 @@
 
 ## Overview
 
+
 In tic-tac-toe, the idea is to get 3 X's or 3 O's in a row, either vertically, horizontally, or diagonally. This is a two player game. Players then alternate clicking on an available spot to claim it with their symbol (either X or O). When one player wins, or the game contains no more available spots on the board, the game is over. This action clears the board and restarts the game.
 
 ## Your Challenge
